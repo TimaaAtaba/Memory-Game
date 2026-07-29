@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>משחק הזיכרון</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="controls">
+    <button id="startBtn">התחל משחק</button>
+    <label>
+      <input type="checkbox" id="twoPlayers" />
+      שני שחקנים
+    </label>
+    <div id="scoreBoard" class="hidden">
+      <span id="player1Score">שחקן 1: 0</span>
+      <span id="player2Score">שחקן 2: 0</span>
+      <span id="currentPlayer">שחקן 1 בתורו</span>
+    </div>
+  </div>
+  <div id="gameBoard"></div>
+  <div id="message"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
